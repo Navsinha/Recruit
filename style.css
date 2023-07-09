@@ -655,8 +655,9 @@ border: none;
     }
 
     .re3__footer-links div {
-        margin: 1rem 0;
+        margin: 1rem 8rem;
     }
+    
 
     .re3__footer-btn p {
         font-size: 14px;
@@ -669,4 +670,6 @@ border: none;
         font-size: 27px;
         line-height: 38px;
     }
+    
+    
 }
