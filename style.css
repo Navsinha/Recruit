@@ -175,6 +175,18 @@ display: none;
 position: relative;
 
  }
+ .closebtn{
+    display: none;
+    margin-left: 25px;
+    font-size: 50px;
+ }
+ #re3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    font-size: 50px;
+    
+     }
 
  .re3__navbar-menu svg {
     cursor: pointer;
@@ -214,11 +226,25 @@ position: relative;
     .re3__navbar-menu{
         display: flex;
     }
+    .closebtn{
+        display: flex;
+        position: static;
+        font-size: 40px;
+       
+       
+    }
  }
  @media screen and (max-width: 700px){
     .re3__navbar {
        padding: 2rem 4rem;
 
+    }
+    .closebtn{
+        display: flex;
+        position: static;
+        font-size: 35px;
+       
+       
     }
  }
 
@@ -235,6 +261,13 @@ position: relative;
     }
     .re3__navbar-menu_container-links-sign{
         display: block;
+    }
+    .closebtn{
+        display: flex;
+        position: static;
+        font-size: 35px;
+       
+       
     }
  }
  .re3__header{
@@ -655,7 +688,7 @@ border: none;
     }
 
     .re3__footer-links div {
-        margin: 1rem 8rem;
+        margin: 1rem 0;
     }
     
 

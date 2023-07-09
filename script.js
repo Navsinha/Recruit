@@ -8,9 +8,14 @@ function signed(){
     window.location.href="signIN.html";
 }
 
-const toggleMenuBtn = document.getElementById('toggleMenuBtn');
-const menuContainer = document.getElementById('menuContainer');
 
-toggleMenuBtn.addEventListener('click', function() {
-  menuContainer.classList.toggle('show');
-});
+
+
+function closeNav() {
+    var x = document.getElementById("re3__navbar-menu");
+    if (x.style.display === "none") {
+      x.style.display = "flex";
+    } else {
+      x.style.display = "none";
+    }
+  }

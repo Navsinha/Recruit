@@ -1,6 +1,3 @@
-function signed(){
-    window.location.href="signIN.html";
-}
 function closeNav() {
     var x = document.getElementById("re3__navbar-menu");
     if (x.style.display === "none") {
@@ -9,3 +6,6 @@ function closeNav() {
       x.style.display = "none";
     }
   }
+  function signed(){
+    window.location.href="signIN.html";
+}
